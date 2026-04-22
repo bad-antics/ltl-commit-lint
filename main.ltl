@@ -1,0 +1,15 @@
+// ltl-commit-lint/main.ltl
+//
+// Conventional-Commits linter with configurable scopes.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-commit-lint v0.1.0")
+    io::println("Conventional-Commits linter with configurable scopes.")
+    0
+}
